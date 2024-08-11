@@ -1,0 +1,71 @@
+body section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sidebar{
+    background-color: rgb(91, 136, 148);
+    width: 33%;
+    min-height: 100vh;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+}
+.branding{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:20px 20px;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+}
+.branding h1{
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px 20px;
+}
+.navbar a{
+    color: #ffff;
+    font-size: 1.2rem;
+    padding:7px 15px;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+.utilities{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 20px;
+    padding: 20px 20px;
+    border: 2px solid #ffff;
+}
+.utilities a{
+    color: #ffff;
+    font-size: 1.2rem;
+    padding: 7px 15px;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+.navbar a:hover{
+    color: rgb(182, 159, 27);
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s;
+    
+}
+.navbar a:focus{
+    color: rgb(182, 159, 27);
+    background-color: rgb(255, 255, 255);
+}
+.utilities a:hover{
+    color: rgb(182, 159, 27);
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
